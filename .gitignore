@@ -15,5 +15,7 @@
 *.ods
 *.save
 *.sqlite3
+*.json
 .venv/
+.logs/
 fusionsh/settings.py
