@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}Eliminar concurso{% endblock %}
+
+{% block content %}
+    <div class="page-header">
+    	<h2>Eliminar concurso</h2>
+    </div>
+    <form method="post" action=".">
+        {% csrf_token %}
+        <p>Estas seguro que quieres eliminarlo "{{ object }}"?</p>
+        <button type="submit" class="btn btn-danger">Eliminar</button>
+    </form>
+{% endblock %}

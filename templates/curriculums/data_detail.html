@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% load bootstrap3 %}
+
+{% block content %}
+
+<div class="container">
+    <div class="panel panel-primary">
+        <div class="panel-heading"> 
+	        <h4><b>{{object.name}}</b></h4>
+	    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-md-9 col-md-push-3">
+                {{object.title}}<br>
+                {{object.area}}<br>
+                {{object.teaching}}<br>
+                <a href="{{MEDIA_URL}}{{object.curriculum}}">Ver Curriculum </a><br>    
+	        </div>
+	        <div class="col-md-3 col-md-pull-9">
+	            <img src='{{MEDIA_URL}}{{object.image}}' class="image_curriculum" >
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,3899 @@
+[
+{
+    "fields": {
+        "model": "logentry",
+        "app_label": "admin"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 1
+},
+{
+    "fields": {
+        "model": "permission",
+        "app_label": "auth"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 2
+},
+{
+    "fields": {
+        "model": "group",
+        "app_label": "auth"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 3
+},
+{
+    "fields": {
+        "model": "user",
+        "app_label": "auth"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 4
+},
+{
+    "fields": {
+        "model": "contenttype",
+        "app_label": "contenttypes"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 5
+},
+{
+    "fields": {
+        "model": "session",
+        "app_label": "sessions"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 6
+},
+{
+    "fields": {
+        "model": "area",
+        "app_label": "concourses"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 7
+},
+{
+    "fields": {
+        "model": "professor",
+        "app_label": "concourses"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 8
+},
+{
+    "fields": {
+        "model": "result",
+        "app_label": "concourses"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 9
+},
+{
+    "fields": {
+        "model": "professorresult",
+        "app_label": "concourses"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 10
+},
+{
+    "fields": {
+        "model": "topic",
+        "app_label": "events"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 11
+},
+{
+    "fields": {
+        "model": "event",
+        "app_label": "events"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 12
+},
+{
+    "fields": {
+        "model": "expedient",
+        "app_label": "expedients"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 13
+},
+{
+    "fields": {
+        "model": "dispatch",
+        "app_label": "expedients"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 14
+},
+{
+    "fields": {
+        "model": "data",
+        "app_label": "curriculums"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 15
+},
+{
+    "fields": {
+        "expire_date": "2015-10-08T20:33:54.481Z",
+        "session_data": "ODk5YjU2YTcwYzEzNzUwMjg1N2Q5YmE0NzkzNGY5OWQ2N2E4NjYzNzp7Il9hdXRoX3VzZXJfaGFzaCI6IjhjMjMxZmJhMDhiMWFkMzJmMzE3MmE0NTY1YmQyZmQ2OTJmNzZiY2QiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkaXJpbmZvLmJhY2tlbmRzLkF1dGhlbnRpY2F0ZUJhY2tlbmQiLCJfYXV0aF91c2VyX2lkIjoiMSJ9"
+    },
+    "model": "sessions.session",
+    "pk": "2hl2w4fayxtbrlx7arf8dzy5catqda64"
+},
+{
+    "fields": {
+        "expire_date": "2015-10-19T14:58:49.935Z",
+        "session_data": "NmQ5ZDE0MGZmOWYwZTQzNTdlODkwMDU2Y2I3MTE5NjAzZTRmMThjNDp7Il9hdXRoX3VzZXJfaGFzaCI6IjQ0ZWM2N2JkNDZkMWE5ZWUxYmQ2N2VmMGUzMDY2N2U4ZDIwOThhMDIiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkaXJpbmZvLmJhY2tlbmRzLkF1dGhlbnRpY2F0ZUJhY2tlbmQiLCJfYXV0aF91c2VyX2lkIjoiMSJ9"
+    },
+    "model": "sessions.session",
+    "pk": "2jt1zwdxxvikf1wyeu0vlde0wji9z5my"
+},
+{
+    "fields": {
+        "expire_date": "2015-10-19T18:31:48.909Z",
+        "session_data": "NmQ5ZDE0MGZmOWYwZTQzNTdlODkwMDU2Y2I3MTE5NjAzZTRmMThjNDp7Il9hdXRoX3VzZXJfaGFzaCI6IjQ0ZWM2N2JkNDZkMWE5ZWUxYmQ2N2VmMGUzMDY2N2U4ZDIwOThhMDIiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkaXJpbmZvLmJhY2tlbmRzLkF1dGhlbnRpY2F0ZUJhY2tlbmQiLCJfYXV0aF91c2VyX2lkIjoiMSJ9"
+    },
+    "model": "sessions.session",
+    "pk": "920pk26b2isdvd4yjigj393idpodndyd"
+},
+{
+    "fields": {
+        "name": "Sistemas"
+    },
+    "model": "concourses.area",
+    "pk": 4
+},
+{
+    "fields": {
+        "name": "Metodolog\u00eda"
+    },
+    "model": "concourses.area",
+    "pk": 6
+},
+{
+    "fields": {
+        "name": "Inform\u00e1tica"
+    },
+    "model": "concourses.area",
+    "pk": 7
+},
+{
+    "fields": {
+        "name": "Aut\u00f3matas"
+    },
+    "model": "concourses.area",
+    "pk": 8
+},
+{
+    "fields": {
+        "name": "Datos"
+    },
+    "model": "concourses.area",
+    "pk": 9
+},
+{
+    "fields": {
+        "name": "Servicios"
+    },
+    "model": "concourses.area",
+    "pk": 10
+},
+{
+    "fields": {
+        "code": "aaa",
+        "name": "Examen Final",
+        "background": "aaa",
+        "text_color": "aaa"
+    },
+    "model": "events.topic",
+    "pk": 1
+},
+{
+    "fields": {
+        "code": "sada",
+        "name": "Examen Parcial",
+        "background": "sasa",
+        "text_color": "sasa"
+    },
+    "model": "events.topic",
+    "pk": 2
+},
+{
+    "fields": {
+        "code": "sadsa",
+        "name": "Consulta",
+        "background": "dsadsa",
+        "text_color": "dsadsa"
+    },
+    "model": "events.topic",
+    "pk": 3
+},
+{
+    "fields": {
+        "code": "dsad",
+        "name": "Inicio de Clases",
+        "background": "dasd",
+        "text_color": "dsa"
+    },
+    "model": "events.topic",
+    "pk": 4
+},
+{
+    "fields": {
+        "code": "dsadss",
+        "name": "Entrega de Resultados",
+        "background": "dsad",
+        "text_color": "dsad"
+    },
+    "model": "events.topic",
+    "pk": 5
+},
+{
+    "fields": {
+        "codename": "add_logentry",
+        "name": "Can add log entry",
+        "content_type": 1
+    },
+    "model": "auth.permission",
+    "pk": 1
+},
+{
+    "fields": {
+        "codename": "change_logentry",
+        "name": "Can change log entry",
+        "content_type": 1
+    },
+    "model": "auth.permission",
+    "pk": 2
+},
+{
+    "fields": {
+        "codename": "delete_logentry",
+        "name": "Can delete log entry",
+        "content_type": 1
+    },
+    "model": "auth.permission",
+    "pk": 3
+},
+{
+    "fields": {
+        "codename": "add_permission",
+        "name": "Can add permission",
+        "content_type": 2
+    },
+    "model": "auth.permission",
+    "pk": 4
+},
+{
+    "fields": {
+        "codename": "change_permission",
+        "name": "Can change permission",
+        "content_type": 2
+    },
+    "model": "auth.permission",
+    "pk": 5
+},
+{
+    "fields": {
+        "codename": "delete_permission",
+        "name": "Can delete permission",
+        "content_type": 2
+    },
+    "model": "auth.permission",
+    "pk": 6
+},
+{
+    "fields": {
+        "codename": "add_group",
+        "name": "Can add group",
+        "content_type": 3
+    },
+    "model": "auth.permission",
+    "pk": 7
+},
+{
+    "fields": {
+        "codename": "change_group",
+        "name": "Can change group",
+        "content_type": 3
+    },
+    "model": "auth.permission",
+    "pk": 8
+},
+{
+    "fields": {
+        "codename": "delete_group",
+        "name": "Can delete group",
+        "content_type": 3
+    },
+    "model": "auth.permission",
+    "pk": 9
+},
+{
+    "fields": {
+        "codename": "add_user",
+        "name": "Can add user",
+        "content_type": 4
+    },
+    "model": "auth.permission",
+    "pk": 10
+},
+{
+    "fields": {
+        "codename": "change_user",
+        "name": "Can change user",
+        "content_type": 4
+    },
+    "model": "auth.permission",
+    "pk": 11
+},
+{
+    "fields": {
+        "codename": "delete_user",
+        "name": "Can delete user",
+        "content_type": 4
+    },
+    "model": "auth.permission",
+    "pk": 12
+},
+{
+    "fields": {
+        "codename": "add_contenttype",
+        "name": "Can add content type",
+        "content_type": 5
+    },
+    "model": "auth.permission",
+    "pk": 13
+},
+{
+    "fields": {
+        "codename": "change_contenttype",
+        "name": "Can change content type",
+        "content_type": 5
+    },
+    "model": "auth.permission",
+    "pk": 14
+},
+{
+    "fields": {
+        "codename": "delete_contenttype",
+        "name": "Can delete content type",
+        "content_type": 5
+    },
+    "model": "auth.permission",
+    "pk": 15
+},
+{
+    "fields": {
+        "codename": "add_session",
+        "name": "Can add session",
+        "content_type": 6
+    },
+    "model": "auth.permission",
+    "pk": 16
+},
+{
+    "fields": {
+        "codename": "change_session",
+        "name": "Can change session",
+        "content_type": 6
+    },
+    "model": "auth.permission",
+    "pk": 17
+},
+{
+    "fields": {
+        "codename": "delete_session",
+        "name": "Can delete session",
+        "content_type": 6
+    },
+    "model": "auth.permission",
+    "pk": 18
+},
+{
+    "fields": {
+        "codename": "add_area",
+        "name": "Can add area",
+        "content_type": 7
+    },
+    "model": "auth.permission",
+    "pk": 19
+},
+{
+    "fields": {
+        "codename": "change_area",
+        "name": "Can change area",
+        "content_type": 7
+    },
+    "model": "auth.permission",
+    "pk": 20
+},
+{
+    "fields": {
+        "codename": "delete_area",
+        "name": "Can delete area",
+        "content_type": 7
+    },
+    "model": "auth.permission",
+    "pk": 21
+},
+{
+    "fields": {
+        "codename": "add_professor",
+        "name": "Can add professor",
+        "content_type": 8
+    },
+    "model": "auth.permission",
+    "pk": 22
+},
+{
+    "fields": {
+        "codename": "change_professor",
+        "name": "Can change professor",
+        "content_type": 8
+    },
+    "model": "auth.permission",
+    "pk": 23
+},
+{
+    "fields": {
+        "codename": "delete_professor",
+        "name": "Can delete professor",
+        "content_type": 8
+    },
+    "model": "auth.permission",
+    "pk": 24
+},
+{
+    "fields": {
+        "codename": "add_result",
+        "name": "Can add result",
+        "content_type": 9
+    },
+    "model": "auth.permission",
+    "pk": 25
+},
+{
+    "fields": {
+        "codename": "change_result",
+        "name": "Can change result",
+        "content_type": 9
+    },
+    "model": "auth.permission",
+    "pk": 26
+},
+{
+    "fields": {
+        "codename": "delete_result",
+        "name": "Can delete result",
+        "content_type": 9
+    },
+    "model": "auth.permission",
+    "pk": 27
+},
+{
+    "fields": {
+        "codename": "add_professorresult",
+        "name": "Can add professor result",
+        "content_type": 10
+    },
+    "model": "auth.permission",
+    "pk": 28
+},
+{
+    "fields": {
+        "codename": "change_professorresult",
+        "name": "Can change professor result",
+        "content_type": 10
+    },
+    "model": "auth.permission",
+    "pk": 29
+},
+{
+    "fields": {
+        "codename": "delete_professorresult",
+        "name": "Can delete professor result",
+        "content_type": 10
+    },
+    "model": "auth.permission",
+    "pk": 30
+},
+{
+    "fields": {
+        "codename": "add_topic",
+        "name": "Can add tema",
+        "content_type": 11
+    },
+    "model": "auth.permission",
+    "pk": 31
+},
+{
+    "fields": {
+        "codename": "change_topic",
+        "name": "Can change tema",
+        "content_type": 11
+    },
+    "model": "auth.permission",
+    "pk": 32
+},
+{
+    "fields": {
+        "codename": "delete_topic",
+        "name": "Can delete tema",
+        "content_type": 11
+    },
+    "model": "auth.permission",
+    "pk": 33
+},
+{
+    "fields": {
+        "codename": "add_event",
+        "name": "Can add evento",
+        "content_type": 12
+    },
+    "model": "auth.permission",
+    "pk": 34
+},
+{
+    "fields": {
+        "codename": "change_event",
+        "name": "Can change evento",
+        "content_type": 12
+    },
+    "model": "auth.permission",
+    "pk": 35
+},
+{
+    "fields": {
+        "codename": "delete_event",
+        "name": "Can delete evento",
+        "content_type": 12
+    },
+    "model": "auth.permission",
+    "pk": 36
+},
+{
+    "fields": {
+        "codename": "add_expedient",
+        "name": "Can add expediente",
+        "content_type": 13
+    },
+    "model": "auth.permission",
+    "pk": 37
+},
+{
+    "fields": {
+        "codename": "change_expedient",
+        "name": "Can change expediente",
+        "content_type": 13
+    },
+    "model": "auth.permission",
+    "pk": 38
+},
+{
+    "fields": {
+        "codename": "delete_expedient",
+        "name": "Can delete expediente",
+        "content_type": 13
+    },
+    "model": "auth.permission",
+    "pk": 39
+},
+{
+    "fields": {
+        "codename": "add_dispatch",
+        "name": "Can add dispatch",
+        "content_type": 14
+    },
+    "model": "auth.permission",
+    "pk": 40
+},
+{
+    "fields": {
+        "codename": "change_dispatch",
+        "name": "Can change dispatch",
+        "content_type": 14
+    },
+    "model": "auth.permission",
+    "pk": 41
+},
+{
+    "fields": {
+        "codename": "delete_dispatch",
+        "name": "Can delete dispatch",
+        "content_type": 14
+    },
+    "model": "auth.permission",
+    "pk": 42
+},
+{
+    "fields": {
+        "codename": "add_data",
+        "name": "Can add Curriculums Docente",
+        "content_type": 15
+    },
+    "model": "auth.permission",
+    "pk": 43
+},
+{
+    "fields": {
+        "codename": "change_data",
+        "name": "Can change Curriculums Docente",
+        "content_type": 15
+    },
+    "model": "auth.permission",
+    "pk": 44
+},
+{
+    "fields": {
+        "codename": "delete_data",
+        "name": "Can delete Curriculums Docente",
+        "content_type": 15
+    },
+    "model": "auth.permission",
+    "pk": 45
+},
+{
+    "fields": {
+        "username": "cruiz",
+        "first_name": "Carlos",
+        "last_name": "Ruiz",
+        "is_active": true,
+        "is_superuser": true,
+        "is_staff": true,
+        "last_login": "2015-10-05T18:31:48.897Z",
+        "groups": [],
+        "user_permissions": [
+            1,
+            2,
+            3,
+            7,
+            8,
+            9,
+            4,
+            5,
+            6,
+            10,
+            11,
+            12,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            28,
+            29,
+            30,
+            25,
+            26,
+            27,
+            13,
+            14,
+            15,
+            34,
+            35,
+            36,
+            31,
+            32,
+            33,
+            40,
+            41,
+            42,
+            37,
+            38,
+            39,
+            16,
+            17,
+            18
+        ],
+        "password": "pbkdf2_sha256$20000$Wip6GW6iAqVs$SOH8e2mQ4xw2Ptx38fv+buwRctnka0Uo8PRVk3Uwfmc=",
+        "email": "cruiz@unsl.edu.ar",
+        "date_joined": "2015-09-23T21:11:24Z"
+    },
+    "model": "auth.user",
+    "pk": 1
+},
+{
+    "fields": {
+        "username": "janavrat",
+        "first_name": "Jose",
+        "last_name": "Navratil",
+        "is_active": true,
+        "is_superuser": true,
+        "is_staff": true,
+        "last_login": "2015-09-25T20:07:35.601Z",
+        "groups": [],
+        "user_permissions": [],
+        "password": "pbkdf2_sha256$20000$NwuDlTvBoSkf$HJIALsAk4z0sTN0yRxegdYw2uTe3hhWT3Y5HIo1B9Js=",
+        "email": "",
+        "date_joined": "2015-09-24T20:10:47Z"
+    },
+    "model": "auth.user",
+    "pk": 4
+},
+{
+    "fields": {
+        "username": "glopezcamino",
+        "first_name": "Gonzalo",
+        "last_name": "Lopez Camino",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": "2015-09-25T12:35:46.401Z",
+        "groups": [],
+        "user_permissions": [
+            34,
+            35,
+            36,
+            31,
+            32,
+            33
+        ],
+        "password": "pbkdf2_sha256$20000$8pUwQ5uFhJqw$qN0rkRpbKjY66dkKkyc3GAI4GR7fxDWx5VM3AHM3XT0=",
+        "email": "",
+        "date_joined": "2015-09-24T20:11:19Z"
+    },
+    "model": "auth.user",
+    "pk": 5
+},
+{
+    "fields": {
+        "username": "merreca",
+        "first_name": "Marcelo",
+        "last_name": "Errecalde",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": null,
+        "groups": [],
+        "user_permissions": [
+            34,
+            35,
+            36,
+            31,
+            32,
+            33
+        ],
+        "password": "pbkdf2_sha256$20000$Qn4snf7raoqL$b89UwVhzV64MTdCjuZq4cM9YD6WeGgqZE9ofQywKb1g=",
+        "email": "",
+        "date_joined": "2015-09-24T20:53:20Z"
+    },
+    "model": "auth.user",
+    "pk": 9
+},
+{
+    "fields": {
+        "username": "arisdas",
+        "first_name": "Dasso",
+        "last_name": "Ar\u00edstides",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": null,
+        "groups": [],
+        "user_permissions": [
+            34,
+            35,
+            36,
+            31,
+            32,
+            33
+        ],
+        "password": "pbkdf2_sha256$20000$qNQNqh1UnOWr$pnQzuALZm8QwAnsP8sICWDyF0qNYFT7ncU2Qcm80Ux0=",
+        "email": "",
+        "date_joined": "2015-09-24T20:53:37Z"
+    },
+    "model": "auth.user",
+    "pk": 10
+},
+{
+    "fields": {
+        "username": "mcchi",
+        "first_name": "Marcela",
+        "last_name": "Chiarani",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": null,
+        "groups": [],
+        "user_permissions": [
+            34,
+            35,
+            36,
+            31,
+            32,
+            33
+        ],
+        "password": "pbkdf2_sha256$20000$zyzM13v3GkFy$jOfCUOzVneLO1D1wUsZLk93eDah1J9el5SfIKryk9Xw=",
+        "email": "",
+        "date_joined": "2015-09-24T20:53:55Z"
+    },
+    "model": "auth.user",
+    "pk": 11
+},
+{
+    "fields": {
+        "username": "mberon",
+        "first_name": "Mario",
+        "last_name": "Ber\u00f3n",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": null,
+        "groups": [],
+        "user_permissions": [
+            34,
+            35,
+            36,
+            31,
+            32,
+            33
+        ],
+        "password": "pbkdf2_sha256$20000$eegwgdmY3EJc$X0oIiEwaHH/Q6F8t4yWEgDu+ACJUqaHXoyLcgI7a6OI=",
+        "email": "",
+        "date_joined": "2015-09-24T20:54:14Z"
+    },
+    "model": "auth.user",
+    "pk": 12
+},
+{
+    "fields": {
+        "username": "flbaigor",
+        "first_name": "Lorena",
+        "last_name": "Baigorria",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": null,
+        "groups": [],
+        "user_permissions": [
+            34,
+            35,
+            36,
+            31,
+            32,
+            33
+        ],
+        "password": "pbkdf2_sha256$20000$Qqb7rsFcVvEu$VXzSOnLax1ge255MnimG+IzZcdHhW5XsnXCRtSxhCeU=",
+        "email": "",
+        "date_joined": "2015-09-24T20:54:31Z"
+    },
+    "model": "auth.user",
+    "pk": 13
+},
+{
+    "fields": {
+        "username": "rubenga",
+        "first_name": "Ruben",
+        "last_name": "Apolloni",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": null,
+        "groups": [],
+        "user_permissions": [
+            34,
+            35,
+            36,
+            31,
+            32,
+            33
+        ],
+        "password": "pbkdf2_sha256$20000$yEaJTLp8Axy8$Wnx9GqpvXJ5ZeZBw4AbstdfL/8hguv3b+YbBJEKtrvk=",
+        "email": "",
+        "date_joined": "2015-09-24T20:54:54Z"
+    },
+    "model": "auth.user",
+    "pk": 14
+},
+{
+    "fields": {
+        "username": "gaguirre",
+        "first_name": "Guillermo",
+        "last_name": "Aguirre",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": null,
+        "groups": [],
+        "user_permissions": [
+            34,
+            35,
+            36,
+            31,
+            32,
+            33
+        ],
+        "password": "pbkdf2_sha256$20000$GZrLihoRRYeb$M+xupM09dnMpZ8WQGVHy51FRFevNlF3h7glMR9nDIDY=",
+        "email": "",
+        "date_joined": "2015-09-24T20:55:10Z"
+    },
+    "model": "auth.user",
+    "pk": 15
+},
+{
+    "fields": {
+        "username": "esquivel",
+        "first_name": "Susana",
+        "last_name": "Esquivel",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": null,
+        "groups": [],
+        "user_permissions": [
+            34,
+            35,
+            36,
+            31,
+            32,
+            33
+        ],
+        "password": "pbkdf2_sha256$20000$b8taGu0yijUN$6YDUlnlEsSBE0ZGZaQPeDTRPwGk2GmOYtZuNufnubkw=",
+        "email": "",
+        "date_joined": "2015-09-25T14:32:40Z"
+    },
+    "model": "auth.user",
+    "pk": 16
+},
+{
+    "fields": {
+        "username": "sflores",
+        "first_name": "Sonia",
+        "last_name": "Flores",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": null,
+        "groups": [],
+        "user_permissions": [
+            34,
+            35,
+            36,
+            31,
+            32,
+            33
+        ],
+        "password": "pbkdf2_sha256$20000$ctYCTU87fxNM$rs0bvSt8+SrHwGLMCk+M0cM7dax6DXFI7NGrqnGzpOs=",
+        "email": "",
+        "date_joined": "2015-09-25T14:40:35Z"
+    },
+    "model": "auth.user",
+    "pk": 17
+},
+{
+    "fields": {
+        "username": "afunes",
+        "first_name": "Ana",
+        "last_name": "Funes",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": null,
+        "groups": [],
+        "user_permissions": [
+            34,
+            35,
+            36,
+            31,
+            32,
+            33
+        ],
+        "password": "pbkdf2_sha256$20000$pqe7CGoDLj8o$l50pR07MNaPhFtxT1qb0UctwAxl6/C4VD3TdknYwzpg=",
+        "email": "",
+        "date_joined": "2015-09-25T14:41:46Z"
+    },
+    "model": "auth.user",
+    "pk": 18
+},
+{
+    "fields": {
+        "username": "oli",
+        "first_name": "Olinda",
+        "last_name": "Gagliardi",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": null,
+        "groups": [],
+        "user_permissions": [
+            34,
+            35,
+            36,
+            31,
+            32,
+            33
+        ],
+        "password": "pbkdf2_sha256$20000$CJXJjM7dkztM$1QwRBBmOsg6LJkVLrIGzofsln3thsddBppNGnqfOR9Q=",
+        "email": "",
+        "date_joined": "2015-09-25T14:42:55Z"
+    },
+    "model": "auth.user",
+    "pk": 19
+},
+{
+    "fields": {
+        "username": "agrosso",
+        "first_name": "Alejandro",
+        "last_name": "Grosso",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": null,
+        "groups": [],
+        "user_permissions": [
+            34,
+            35,
+            36,
+            31,
+            32,
+            33
+        ],
+        "password": "pbkdf2_sha256$20000$EYCMIAE6LEq7$DBumv+WEREcJhWKo7ypya/9mLbXf9YaczF4H3VskHhY=",
+        "email": "",
+        "date_joined": "2015-09-25T14:43:45Z"
+    },
+    "model": "auth.user",
+    "pk": 20
+},
+{
+    "fields": {
+        "username": "rag",
+        "first_name": "Roberto",
+        "last_name": "Guerrero",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": null,
+        "groups": [],
+        "user_permissions": [
+            34,
+            35,
+            36,
+            31,
+            32,
+            33
+        ],
+        "password": "pbkdf2_sha256$20000$e3AhWuLB5JXU$QM3zpKMJOxKV800optNP4VpVvc2MHI6nef38faqOcN8=",
+        "email": "",
+        "date_joined": "2015-09-25T14:44:48Z"
+    },
+    "model": "auth.user",
+    "pk": 21
+},
+{
+    "fields": {
+        "username": "nherrera",
+        "first_name": "Norma",
+        "last_name": "Herrera",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": null,
+        "groups": [],
+        "user_permissions": [
+            34,
+            35,
+            36,
+            31,
+            32,
+            33
+        ],
+        "password": "pbkdf2_sha256$20000$pC0ljeXztsNJ$yF2IXdmNukBLVxPT/Vc3ivjR6z02EiRsHtNPrjgWc24=",
+        "email": "",
+        "date_joined": "2015-09-25T14:47:53Z"
+    },
+    "model": "auth.user",
+    "pk": 22
+},
+{
+    "fields": {
+        "username": "legui",
+        "first_name": "Guillermo",
+        "last_name": "Leguizam\u00f3n",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": null,
+        "groups": [],
+        "user_permissions": [
+            34,
+            35,
+            36,
+            31,
+            32,
+            33
+        ],
+        "password": "pbkdf2_sha256$20000$UKu33tYd3owI$6J+XdNvGldQjKOZk2Mg9UIY5lhTFrlULVzUQ8Q/kQrg=",
+        "email": "",
+        "date_joined": "2015-09-25T14:48:59Z"
+    },
+    "model": "auth.user",
+    "pk": 23
+},
+{
+    "fields": {
+        "username": "smolina",
+        "first_name": "Silvia",
+        "last_name": "Molina",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": null,
+        "groups": [],
+        "user_permissions": [
+            34,
+            35,
+            36,
+            31,
+            32,
+            33
+        ],
+        "password": "pbkdf2_sha256$20000$K61L5qcb3dfm$3HcWvi+EKAXsYN48WlRih+pSmJ5q12S2xVbjULokGXc=",
+        "email": "",
+        "date_joined": "2015-09-25T14:50:10Z"
+    },
+    "model": "auth.user",
+    "pk": 24
+},
+{
+    "fields": {
+        "username": "gmonte",
+        "first_name": "Germ\u00e1n",
+        "last_name": "Montejano",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": null,
+        "groups": [],
+        "user_permissions": [
+            34,
+            35,
+            36,
+            31,
+            32,
+            33
+        ],
+        "password": "pbkdf2_sha256$20000$uyZQmN3i8VPC$vjb0xzvJ2Hi9ZqB6wSO9RySwE0C5cQ/gilJfIoBf8sU=",
+        "email": "",
+        "date_joined": "2015-09-25T14:51:21Z"
+    },
+    "model": "auth.user",
+    "pk": 25
+},
+{
+    "fields": {
+        "username": "ayesha",
+        "first_name": "Claudia",
+        "last_name": "Necco",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": null,
+        "groups": [],
+        "user_permissions": [
+            34,
+            35,
+            36,
+            31,
+            32,
+            33
+        ],
+        "password": "pbkdf2_sha256$20000$coKHd8taNaBQ$anJVQ4vDazoUGq6+Gq2jAcgGX8/mV1i3S4Mkue5cWvg=",
+        "email": "",
+        "date_joined": "2015-09-25T14:52:38Z"
+    },
+    "model": "auth.user",
+    "pk": 26
+},
+{
+    "fields": {
+        "username": "mperalta",
+        "first_name": "Mario",
+        "last_name": "Peralta",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": null,
+        "groups": [],
+        "user_permissions": [
+            34,
+            35,
+            36,
+            31,
+            32,
+            33
+        ],
+        "password": "pbkdf2_sha256$20000$6NSLcell7fnc$MAnECbG4qjhoU9eCu9IkgGISo3b7YGBe1Xet4izUMvo=",
+        "email": "",
+        "date_joined": "2015-09-25T14:53:53Z"
+    },
+    "model": "auth.user",
+    "pk": 27
+},
+{
+    "fields": {
+        "username": "pianucci",
+        "first_name": "Irma",
+        "last_name": "Pianucci",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": null,
+        "groups": [],
+        "user_permissions": [
+            34,
+            35,
+            36,
+            31,
+            32,
+            33
+        ],
+        "password": "pbkdf2_sha256$20000$cDROkCjFNLfK$vrRzKw5sZ8LehtWoCcjh0akvZkFkGLm+jI0jegZx8mM=",
+        "email": "",
+        "date_joined": "2015-09-25T14:54:56Z"
+    },
+    "model": "auth.user",
+    "pk": 28
+},
+{
+    "fields": {
+        "username": "mpiccoli",
+        "first_name": "Fabiana",
+        "last_name": "Piccoli",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": null,
+        "groups": [],
+        "user_permissions": [
+            34,
+            35,
+            36,
+            31,
+            32,
+            33
+        ],
+        "password": "pbkdf2_sha256$20000$Uxqksb6oRnoQ$BZe0/kZgMX7hLQf5LoA26wEl+mzrBWInSmNnRDr+mL8=",
+        "email": "",
+        "date_joined": "2015-09-25T14:56:04Z"
+    },
+    "model": "auth.user",
+    "pk": 29
+},
+{
+    "fields": {
+        "username": "mprinti",
+        "first_name": "Marcela",
+        "last_name": "Printista",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": null,
+        "groups": [],
+        "user_permissions": [
+            34,
+            35,
+            36,
+            31,
+            32,
+            33
+        ],
+        "password": "pbkdf2_sha256$20000$UuPDVqGOaTSH$/OvSujxqmWNdVBZnCV1zZwmUuSU9d2zB+kQzeIK/cUM=",
+        "email": "",
+        "date_joined": "2015-09-25T14:57:17Z"
+    },
+    "model": "auth.user",
+    "pk": 30
+},
+{
+    "fields": {
+        "username": "nreyes",
+        "first_name": "Nora",
+        "last_name": "Reyes",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": null,
+        "groups": [],
+        "user_permissions": [
+            34,
+            35,
+            36,
+            31,
+            32,
+            33
+        ],
+        "password": "pbkdf2_sha256$20000$XgHFJhN5wyOL$YGUZG53D17ILmRJaFbAHxeMQCh+OBDGs2jAPBJi26r4=",
+        "email": "",
+        "date_joined": "2015-09-25T14:58:20Z"
+    },
+    "model": "auth.user",
+    "pk": 31
+},
+{
+    "fields": {
+        "username": "driesco",
+        "first_name": "Daniel",
+        "last_name": "Riesco",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": null,
+        "groups": [],
+        "user_permissions": [
+            34,
+            35,
+            36,
+            31,
+            32,
+            33
+        ],
+        "password": "pbkdf2_sha256$20000$cIQ3zeOkXO0v$6+UMccviDrfqcJhNyOMHiBGDpQ5KAIm5jyHHcwWDY1Q=",
+        "email": "",
+        "date_joined": "2015-09-25T14:59:20Z"
+    },
+    "model": "auth.user",
+    "pk": 32
+},
+{
+    "fields": {
+        "username": "proggero",
+        "first_name": "Patricia",
+        "last_name": "Roggero",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": null,
+        "groups": [],
+        "user_permissions": [
+            34,
+            35,
+            36,
+            31,
+            32,
+            33
+        ],
+        "password": "pbkdf2_sha256$20000$po8oHAnf4RX7$wf4wN/4kL31P//kDrzeitXdRO2Ormx5GGEc+2QxYLTQ=",
+        "email": "",
+        "date_joined": "2015-09-25T15:00:39Z"
+    },
+    "model": "auth.user",
+    "pk": 33
+},
+{
+    "fields": {
+        "username": "csalgado",
+        "first_name": "Carlos",
+        "last_name": "Salgado",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": null,
+        "groups": [],
+        "user_permissions": [
+            34,
+            35,
+            36,
+            31,
+            32,
+            33
+        ],
+        "password": "pbkdf2_sha256$20000$RDeWQPEatHNQ$t0GrlfYgpH257Pha9KVo8b9SYfleLuZU/Ts4x6bXJH4=",
+        "email": "",
+        "date_joined": "2015-09-25T15:01:37Z"
+    },
+    "model": "auth.user",
+    "pk": 34
+},
+{
+    "fields": {
+        "username": "bgarcia",
+        "first_name": "Berta",
+        "last_name": "Garcia",
+        "is_active": true,
+        "is_superuser": false,
+        "is_staff": false,
+        "last_login": null,
+        "groups": [],
+        "user_permissions": [
+            34,
+            35,
+            36,
+            31,
+            32,
+            33
+        ],
+        "password": "pbkdf2_sha256$20000$wX7lRybDGEN9$qjf8TzW9J21MamkuMRNFE5PzySqMs/Bk9NFcgDc1A8M=",
+        "email": "",
+        "date_joined": "2015-09-25T15:03:01Z"
+    },
+    "model": "auth.user",
+    "pk": 35
+},
+{
+    "fields": {
+        "area": 8
+    },
+    "model": "concourses.professor",
+    "pk": 9
+},
+{
+    "fields": {
+        "area": 6
+    },
+    "model": "concourses.professor",
+    "pk": 10
+},
+{
+    "fields": {
+        "area": 7
+    },
+    "model": "concourses.professor",
+    "pk": 11
+},
+{
+    "fields": {
+        "area": 6
+    },
+    "model": "concourses.professor",
+    "pk": 12
+},
+{
+    "fields": {
+        "area": 6
+    },
+    "model": "concourses.professor",
+    "pk": 13
+},
+{
+    "fields": {
+        "area": 4
+    },
+    "model": "concourses.professor",
+    "pk": 14
+},
+{
+    "fields": {
+        "area": 4
+    },
+    "model": "concourses.professor",
+    "pk": 15
+},
+{
+    "fields": {
+        "area": 8
+    },
+    "model": "concourses.professor",
+    "pk": 16
+},
+{
+    "fields": {
+        "area": 4
+    },
+    "model": "concourses.professor",
+    "pk": 17
+},
+{
+    "fields": {
+        "area": 6
+    },
+    "model": "concourses.professor",
+    "pk": 18
+},
+{
+    "fields": {
+        "area": 9
+    },
+    "model": "concourses.professor",
+    "pk": 19
+},
+{
+    "fields": {
+        "area": 4
+    },
+    "model": "concourses.professor",
+    "pk": 20
+},
+{
+    "fields": {
+        "area": 10
+    },
+    "model": "concourses.professor",
+    "pk": 21
+},
+{
+    "fields": {
+        "area": 9
+    },
+    "model": "concourses.professor",
+    "pk": 22
+},
+{
+    "fields": {
+        "area": 8
+    },
+    "model": "concourses.professor",
+    "pk": 23
+},
+{
+    "fields": {
+        "area": 4
+    },
+    "model": "concourses.professor",
+    "pk": 24
+},
+{
+    "fields": {
+        "area": 6
+    },
+    "model": "concourses.professor",
+    "pk": 25
+},
+{
+    "fields": {
+        "area": 6
+    },
+    "model": "concourses.professor",
+    "pk": 26
+},
+{
+    "fields": {
+        "area": 6
+    },
+    "model": "concourses.professor",
+    "pk": 27
+},
+{
+    "fields": {
+        "area": 7
+    },
+    "model": "concourses.professor",
+    "pk": 28
+},
+{
+    "fields": {
+        "area": 4
+    },
+    "model": "concourses.professor",
+    "pk": 29
+},
+{
+    "fields": {
+        "area": 4
+    },
+    "model": "concourses.professor",
+    "pk": 30
+},
+{
+    "fields": {
+        "area": 9
+    },
+    "model": "concourses.professor",
+    "pk": 31
+},
+{
+    "fields": {
+        "area": 6
+    },
+    "model": "concourses.professor",
+    "pk": 32
+},
+{
+    "fields": {
+        "area": 8
+    },
+    "model": "concourses.professor",
+    "pk": 33
+},
+{
+    "fields": {
+        "area": 6
+    },
+    "model": "concourses.professor",
+    "pk": 34
+},
+{
+    "fields": {
+        "area": 7
+    },
+    "model": "concourses.professor",
+    "pk": 35
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-24T11:34:51.616Z",
+        "object_repr": "cruiz",
+        "object_id": "1",
+        "change_message": "Modifica user_permissions.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 1
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T11:36:28.555Z",
+        "object_repr": "sasa",
+        "object_id": "1",
+        "change_message": "",
+        "user": 1,
+        "content_type": 11
+    },
+    "model": "admin.logentry",
+    "pk": 2
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T11:39:52.159Z",
+        "object_repr": "area1",
+        "object_id": "1",
+        "change_message": "",
+        "user": 1,
+        "content_type": 7
+    },
+    "model": "admin.logentry",
+    "pk": 3
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T11:39:57.009Z",
+        "object_repr": "area2",
+        "object_id": "2",
+        "change_message": "",
+        "user": 1,
+        "content_type": 7
+    },
+    "model": "admin.logentry",
+    "pk": 4
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T11:40:02.193Z",
+        "object_repr": "area3",
+        "object_id": "3",
+        "change_message": "",
+        "user": 1,
+        "content_type": 7
+    },
+    "model": "admin.logentry",
+    "pk": 5
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T11:40:23.377Z",
+        "object_repr": "cruiz - area1",
+        "object_id": "1",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 6
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T11:40:45.215Z",
+        "object_repr": "test1",
+        "object_id": "2",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 7
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T11:40:53.715Z",
+        "object_repr": "test2",
+        "object_id": "3",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 8
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T11:41:17.445Z",
+        "object_repr": "test1 - area2",
+        "object_id": "2",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 9
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T11:41:22.964Z",
+        "object_repr": "test2 - area3",
+        "object_id": "3",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 10
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-24T11:42:01.485Z",
+        "object_repr": "test2 - area1",
+        "object_id": "3",
+        "change_message": "Modifica area.",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 11
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-24T11:42:07.446Z",
+        "object_repr": "test1 - area1",
+        "object_id": "2",
+        "change_message": "Modifica area.",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 12
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T20:10:47.708Z",
+        "object_repr": "janavrat",
+        "object_id": "4",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 13
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T20:11:19.323Z",
+        "object_repr": "glopezcamino",
+        "object_id": "5",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 14
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-24T20:13:04.193Z",
+        "object_repr": "glopezcamino",
+        "object_id": "5",
+        "change_message": "Modifica is_staff y is_superuser.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 15
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-24T20:13:19.772Z",
+        "object_repr": "janavrat",
+        "object_id": "4",
+        "change_message": "Modifica is_staff y is_superuser.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 16
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-24T20:15:01.731Z",
+        "object_repr": "glopezcamino",
+        "object_id": "5",
+        "change_message": "Modifica is_superuser.",
+        "user": 5,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 17
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-24T20:22:20.672Z",
+        "object_repr": "glopezcamino",
+        "object_id": "5",
+        "change_message": "Modifica is_staff.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 18
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T20:34:24.580Z",
+        "object_repr": "glopezcamino - area1",
+        "object_id": "5",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 19
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T20:34:32.219Z",
+        "object_repr": "janavrat - area1",
+        "object_id": "4",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 20
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T20:34:48.148Z",
+        "object_repr": "test3",
+        "object_id": "6",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 21
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T20:34:52.384Z",
+        "object_repr": "test3 - area1",
+        "object_id": "6",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 22
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T20:36:16.655Z",
+        "object_repr": "test4",
+        "object_id": "7",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 23
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T20:36:23.273Z",
+        "object_repr": "test4 - area2",
+        "object_id": "7",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 24
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T20:36:36.707Z",
+        "object_repr": "test5",
+        "object_id": "8",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 25
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T20:36:41.802Z",
+        "object_repr": "test5 - area3",
+        "object_id": "8",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 26
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-24T20:40:49.869Z",
+        "object_repr": "glopezcamino",
+        "object_id": "5",
+        "change_message": "Modifica is_staff.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 27
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-24T20:41:00.991Z",
+        "object_repr": "test5",
+        "object_id": "8",
+        "change_message": "Modifica is_staff.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 28
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-24T20:41:17.235Z",
+        "object_repr": "test4",
+        "object_id": "7",
+        "change_message": "Modifica is_staff.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 29
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-24T20:41:32.606Z",
+        "object_repr": "test1",
+        "object_id": "2",
+        "change_message": "Modifica is_staff.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 30
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-24T20:41:50.947Z",
+        "object_repr": "test2",
+        "object_id": "3",
+        "change_message": "Modifica is_staff.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 31
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-24T20:41:58.674Z",
+        "object_repr": "test3",
+        "object_id": "6",
+        "change_message": "Modifica is_staff.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 32
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T20:45:55.253Z",
+        "object_repr": "Sistemas",
+        "object_id": "4",
+        "change_message": "",
+        "user": 1,
+        "content_type": 7
+    },
+    "model": "admin.logentry",
+    "pk": 33
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T20:47:25.844Z",
+        "object_repr": "Metodolog\u00eda",
+        "object_id": "6",
+        "change_message": "",
+        "user": 1,
+        "content_type": 7
+    },
+    "model": "admin.logentry",
+    "pk": 34
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T20:47:46.141Z",
+        "object_repr": "Inform\u00e1tica",
+        "object_id": "7",
+        "change_message": "",
+        "user": 1,
+        "content_type": 7
+    },
+    "model": "admin.logentry",
+    "pk": 35
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T20:47:57.815Z",
+        "object_repr": "Aut\u00f3matas",
+        "object_id": "8",
+        "change_message": "",
+        "user": 1,
+        "content_type": 7
+    },
+    "model": "admin.logentry",
+    "pk": 36
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T20:48:08.387Z",
+        "object_repr": "Datos",
+        "object_id": "9",
+        "change_message": "",
+        "user": 1,
+        "content_type": 7
+    },
+    "model": "admin.logentry",
+    "pk": 37
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T20:48:14.574Z",
+        "object_repr": "Servicios",
+        "object_id": "10",
+        "change_message": "",
+        "user": 1,
+        "content_type": 7
+    },
+    "model": "admin.logentry",
+    "pk": 38
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T20:53:20.350Z",
+        "object_repr": "merreca",
+        "object_id": "9",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 39
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T20:53:37.961Z",
+        "object_repr": "arisdas",
+        "object_id": "10",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 40
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T20:53:56.008Z",
+        "object_repr": "mcchi",
+        "object_id": "11",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 41
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T20:54:14.409Z",
+        "object_repr": "mberon",
+        "object_id": "12",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 42
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T20:54:31.827Z",
+        "object_repr": "flbaigor",
+        "object_id": "13",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 43
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T20:54:54.268Z",
+        "object_repr": "rubenga",
+        "object_id": "14",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 44
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T20:55:10.810Z",
+        "object_repr": "gaguirre",
+        "object_id": "15",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 45
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "action_time": "2015-09-24T20:55:42.973Z",
+        "object_repr": "test5 - area3",
+        "object_id": "8",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 46
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "action_time": "2015-09-24T20:55:42.991Z",
+        "object_repr": "test4 - area2",
+        "object_id": "7",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 47
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "action_time": "2015-09-24T20:55:43.002Z",
+        "object_repr": "test3 - area1",
+        "object_id": "6",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 48
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "action_time": "2015-09-24T20:55:43.013Z",
+        "object_repr": "test2 - area1",
+        "object_id": "3",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 49
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "action_time": "2015-09-24T20:55:43.024Z",
+        "object_repr": "test1 - area1",
+        "object_id": "2",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 50
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-24T20:55:52.506Z",
+        "object_repr": "glopezcamino - Inform\u00e1tica",
+        "object_id": "5",
+        "change_message": "Modifica area.",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 51
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-24T20:55:58.794Z",
+        "object_repr": "janavrat - Inform\u00e1tica",
+        "object_id": "4",
+        "change_message": "Modifica area.",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 52
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-24T20:56:05.600Z",
+        "object_repr": "cruiz - Inform\u00e1tica",
+        "object_id": "1",
+        "change_message": "Modifica area.",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 53
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "action_time": "2015-09-24T20:56:17.814Z",
+        "object_repr": "area1",
+        "object_id": "1",
+        "change_message": "",
+        "user": 1,
+        "content_type": 7
+    },
+    "model": "admin.logentry",
+    "pk": 54
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "action_time": "2015-09-24T20:56:17.826Z",
+        "object_repr": "area2",
+        "object_id": "2",
+        "change_message": "",
+        "user": 1,
+        "content_type": 7
+    },
+    "model": "admin.logentry",
+    "pk": 55
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "action_time": "2015-09-24T20:56:17.837Z",
+        "object_repr": "area3",
+        "object_id": "3",
+        "change_message": "",
+        "user": 1,
+        "content_type": 7
+    },
+    "model": "admin.logentry",
+    "pk": 56
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T20:56:45.861Z",
+        "object_repr": "gaguirre - Sistemas",
+        "object_id": "15",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 57
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T20:57:04.057Z",
+        "object_repr": "rubenga - Sistemas",
+        "object_id": "14",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 58
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T20:57:22.053Z",
+        "object_repr": "flbaigor - Metodolog\u00eda",
+        "object_id": "13",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 59
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T20:57:34.955Z",
+        "object_repr": "mberon - Metodolog\u00eda",
+        "object_id": "12",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 60
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T20:57:50.079Z",
+        "object_repr": "mcchi - Inform\u00e1tica",
+        "object_id": "11",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 61
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T20:58:03.220Z",
+        "object_repr": "arisdas - Metodolog\u00eda",
+        "object_id": "10",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 62
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-24T20:58:19.169Z",
+        "object_repr": "merreca - Aut\u00f3matas",
+        "object_id": "9",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 63
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "action_time": "2015-09-24T20:58:34.712Z",
+        "object_repr": "test1",
+        "object_id": "2",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 64
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "action_time": "2015-09-24T20:58:34.734Z",
+        "object_repr": "test2",
+        "object_id": "3",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 65
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "action_time": "2015-09-24T20:58:34.745Z",
+        "object_repr": "test3",
+        "object_id": "6",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 66
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "action_time": "2015-09-24T20:58:34.756Z",
+        "object_repr": "test4",
+        "object_id": "7",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 67
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "action_time": "2015-09-24T20:58:34.767Z",
+        "object_repr": "test5",
+        "object_id": "8",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 68
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T11:38:19.184Z",
+        "object_repr": "cruiz",
+        "object_id": "1",
+        "change_message": "Modifica first_name y last_name.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 69
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T12:23:19.881Z",
+        "object_repr": "gaguirre",
+        "object_id": "15",
+        "change_message": "Modifica first_name, last_name y user_permissions.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 70
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T12:24:01.736Z",
+        "object_repr": "arisdas",
+        "object_id": "10",
+        "change_message": "Modifica first_name, last_name y user_permissions.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 71
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T12:24:22.675Z",
+        "object_repr": "janavrat",
+        "object_id": "4",
+        "change_message": "Modifica first_name y last_name.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 72
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T12:25:00.636Z",
+        "object_repr": "glopezcamino",
+        "object_id": "5",
+        "change_message": "Modifica first_name, last_name y is_superuser.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 73
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T12:25:35.229Z",
+        "object_repr": "flbaigor",
+        "object_id": "13",
+        "change_message": "Modifica first_name, last_name y user_permissions.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 74
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T12:26:06.777Z",
+        "object_repr": "mberon",
+        "object_id": "12",
+        "change_message": "Modifica first_name, last_name y user_permissions.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 75
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T12:26:35.313Z",
+        "object_repr": "mcchi",
+        "object_id": "11",
+        "change_message": "Modifica first_name, last_name y user_permissions.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 76
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T12:27:06.080Z",
+        "object_repr": "merreca",
+        "object_id": "9",
+        "change_message": "Modifica first_name, last_name y user_permissions.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 77
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T12:27:36.198Z",
+        "object_repr": "rubenga",
+        "object_id": "14",
+        "change_message": "Modifica first_name, last_name y user_permissions.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 78
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T12:34:46.905Z",
+        "object_repr": "glopezcamino",
+        "object_id": "5",
+        "change_message": "Modifica is_staff, is_superuser y user_permissions.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 79
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T14:32:40.371Z",
+        "object_repr": "esquivel",
+        "object_id": "16",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 80
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T14:33:19.655Z",
+        "object_repr": "esquivel",
+        "object_id": "16",
+        "change_message": "Modifica first_name y last_name.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 81
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T14:33:42.541Z",
+        "object_repr": "esquivel",
+        "object_id": "16",
+        "change_message": "Modifica user_permissions.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 82
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T14:35:03.318Z",
+        "object_repr": "arisdas",
+        "object_id": "10",
+        "change_message": "Modifica password.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 83
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T14:35:27.997Z",
+        "object_repr": "cruiz",
+        "object_id": "1",
+        "change_message": "Modifica password.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 84
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T14:35:49.742Z",
+        "object_repr": "esquivel",
+        "object_id": "16",
+        "change_message": "Modifica password.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 85
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T14:36:10.210Z",
+        "object_repr": "flbaigor",
+        "object_id": "13",
+        "change_message": "Modifica password.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 86
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T14:36:30.600Z",
+        "object_repr": "gaguirre",
+        "object_id": "15",
+        "change_message": "Modifica password.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 87
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T14:36:54.323Z",
+        "object_repr": "glopezcamino",
+        "object_id": "5",
+        "change_message": "Modifica password.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 88
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T14:37:18.293Z",
+        "object_repr": "janavrat",
+        "object_id": "4",
+        "change_message": "Modifica password.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 89
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T14:37:45.836Z",
+        "object_repr": "mberon",
+        "object_id": "12",
+        "change_message": "Modifica password.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 90
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T14:38:05.815Z",
+        "object_repr": "mcchi",
+        "object_id": "11",
+        "change_message": "Modifica password.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 91
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T14:38:27.161Z",
+        "object_repr": "merreca",
+        "object_id": "9",
+        "change_message": "Modifica password.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 92
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T14:38:53.584Z",
+        "object_repr": "glopezcamino",
+        "object_id": "5",
+        "change_message": "Modifica password.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 93
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T14:39:15.485Z",
+        "object_repr": "cruiz",
+        "object_id": "1",
+        "change_message": "Modifica password.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 94
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T14:40:35.649Z",
+        "object_repr": "sflores",
+        "object_id": "17",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 95
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T14:41:00.098Z",
+        "object_repr": "sflores",
+        "object_id": "17",
+        "change_message": "Modifica first_name, last_name y user_permissions.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 96
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T14:41:46.531Z",
+        "object_repr": "afunes",
+        "object_id": "18",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 97
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T14:42:01.534Z",
+        "object_repr": "afunes",
+        "object_id": "18",
+        "change_message": "Modifica first_name, last_name y user_permissions.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 98
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T14:42:55.243Z",
+        "object_repr": "oli",
+        "object_id": "19",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 99
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T14:43:11.454Z",
+        "object_repr": "oli",
+        "object_id": "19",
+        "change_message": "Modifica first_name, last_name y user_permissions.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 100
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T14:43:45.627Z",
+        "object_repr": "agrosso",
+        "object_id": "20",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 101
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T14:44:06.217Z",
+        "object_repr": "agrosso",
+        "object_id": "20",
+        "change_message": "Modifica first_name, last_name y user_permissions.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 102
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T14:44:48.456Z",
+        "object_repr": "rag",
+        "object_id": "21",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 103
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T14:45:06.528Z",
+        "object_repr": "rag",
+        "object_id": "21",
+        "change_message": "Modifica first_name, last_name y user_permissions.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 104
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T14:47:53.791Z",
+        "object_repr": "nherrera",
+        "object_id": "22",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 105
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T14:48:16.373Z",
+        "object_repr": "nherrera",
+        "object_id": "22",
+        "change_message": "Modifica first_name, last_name y user_permissions.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 106
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T14:48:59.955Z",
+        "object_repr": "legui",
+        "object_id": "23",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 107
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T14:49:18.214Z",
+        "object_repr": "legui",
+        "object_id": "23",
+        "change_message": "Modifica first_name, last_name y user_permissions.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 108
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T14:50:10.844Z",
+        "object_repr": "smolina",
+        "object_id": "24",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 109
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T14:50:28.239Z",
+        "object_repr": "smolina",
+        "object_id": "24",
+        "change_message": "Modifica first_name, last_name y user_permissions.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 110
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T14:51:21.372Z",
+        "object_repr": "gmonte",
+        "object_id": "25",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 111
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T14:51:44.332Z",
+        "object_repr": "gmonte",
+        "object_id": "25",
+        "change_message": "Modifica first_name, last_name y user_permissions.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 112
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T14:52:38.859Z",
+        "object_repr": "ayesha",
+        "object_id": "26",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 113
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T14:52:55.947Z",
+        "object_repr": "ayesha",
+        "object_id": "26",
+        "change_message": "Modifica first_name, last_name y user_permissions.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 114
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T14:53:53.575Z",
+        "object_repr": "mperalta",
+        "object_id": "27",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 115
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T14:54:11.826Z",
+        "object_repr": "mperalta",
+        "object_id": "27",
+        "change_message": "Modifica first_name, last_name y user_permissions.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 116
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T14:54:56.289Z",
+        "object_repr": "pianucci",
+        "object_id": "28",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 117
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T14:55:13.974Z",
+        "object_repr": "pianucci",
+        "object_id": "28",
+        "change_message": "Modifica first_name, last_name y user_permissions.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 118
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T14:56:04.768Z",
+        "object_repr": "mpiccoli",
+        "object_id": "29",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 119
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T14:56:22.214Z",
+        "object_repr": "mpiccoli",
+        "object_id": "29",
+        "change_message": "Modifica first_name, last_name y user_permissions.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 120
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T14:57:17.897Z",
+        "object_repr": "mprinti",
+        "object_id": "30",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 121
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T14:57:33.276Z",
+        "object_repr": "mprinti",
+        "object_id": "30",
+        "change_message": "Modifica first_name, last_name y user_permissions.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 122
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T14:58:20.609Z",
+        "object_repr": "nreyes",
+        "object_id": "31",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 123
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T14:58:40.652Z",
+        "object_repr": "nreyes",
+        "object_id": "31",
+        "change_message": "Modifica first_name, last_name y user_permissions.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 124
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T14:59:20.392Z",
+        "object_repr": "driesco",
+        "object_id": "32",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 125
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T14:59:45.486Z",
+        "object_repr": "driesco",
+        "object_id": "32",
+        "change_message": "Modifica first_name, last_name y user_permissions.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 126
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T15:00:39.726Z",
+        "object_repr": "proggero",
+        "object_id": "33",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 127
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T15:01:06.356Z",
+        "object_repr": "proggero",
+        "object_id": "33",
+        "change_message": "Modifica first_name, last_name y user_permissions.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 128
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T15:01:37.807Z",
+        "object_repr": "csalgado",
+        "object_id": "34",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 129
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T15:02:05.399Z",
+        "object_repr": "csalgado",
+        "object_id": "34",
+        "change_message": "Modifica first_name, last_name y user_permissions.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 130
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T15:03:01.351Z",
+        "object_repr": "bgarcia",
+        "object_id": "35",
+        "change_message": "",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 131
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T15:03:29.605Z",
+        "object_repr": "bgarcia",
+        "object_id": "35",
+        "change_message": "Modifica first_name, last_name y user_permissions.",
+        "user": 1,
+        "content_type": 4
+    },
+    "model": "admin.logentry",
+    "pk": 132
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T15:06:48.054Z",
+        "object_repr": "Susana Esquivel - Aut\u00f3matas",
+        "object_id": "16",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 133
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T15:07:14.419Z",
+        "object_repr": "Sonia Flores - Sistemas",
+        "object_id": "17",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 134
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T15:07:28.097Z",
+        "object_repr": "Ana Funes - Metodolog\u00eda",
+        "object_id": "18",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 135
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T15:07:41.497Z",
+        "object_repr": "Olinda Gagliardi - Datos",
+        "object_id": "19",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 136
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T15:07:55.739Z",
+        "object_repr": "Alejandro Grosso - Sistemas",
+        "object_id": "20",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 137
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T15:08:11.624Z",
+        "object_repr": "Roberto Guerrero - Servicios",
+        "object_id": "21",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 138
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T15:08:29.737Z",
+        "object_repr": "Norma Herrera - Datos",
+        "object_id": "22",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 139
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T15:08:42.125Z",
+        "object_repr": "Guillermo Leguizam\u00f3n - Aut\u00f3matas",
+        "object_id": "23",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 140
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T15:08:55.316Z",
+        "object_repr": "Silvia Molina - Sistemas",
+        "object_id": "24",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 141
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T15:09:11.539Z",
+        "object_repr": "Germ\u00e1n Montejano - Metodolog\u00eda",
+        "object_id": "25",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 142
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T15:09:23.359Z",
+        "object_repr": "Claudia Necco - Metodolog\u00eda",
+        "object_id": "26",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 143
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T15:09:34.433Z",
+        "object_repr": "Mario Peralta - Metodolog\u00eda",
+        "object_id": "27",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 144
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T15:09:52.321Z",
+        "object_repr": "Irma Pianucci - Inform\u00e1tica",
+        "object_id": "28",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 145
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T15:10:10.169Z",
+        "object_repr": "Fabiana Piccoli - Sistemas",
+        "object_id": "29",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 146
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T15:10:20.081Z",
+        "object_repr": "Marcela Printista - Sistemas",
+        "object_id": "30",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 147
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T15:10:32.405Z",
+        "object_repr": "Nora Reyes - Datos",
+        "object_id": "31",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 148
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T15:10:48.724Z",
+        "object_repr": "Daniel Riesco - Metodolog\u00eda",
+        "object_id": "32",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 149
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T15:10:59.699Z",
+        "object_repr": "Patricia Roggero - Aut\u00f3matas",
+        "object_id": "33",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 150
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T15:11:09.520Z",
+        "object_repr": "Carlos Salgado - Metodolog\u00eda",
+        "object_id": "34",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 151
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T15:11:21.075Z",
+        "object_repr": "Berta Garcia - Inform\u00e1tica",
+        "object_id": "35",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 152
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T15:59:46.861Z",
+        "object_repr": "Final",
+        "object_id": "1",
+        "change_message": "Modifica name, code, text_color y background.",
+        "user": 1,
+        "content_type": 11
+    },
+    "model": "admin.logentry",
+    "pk": 153
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T16:00:00.189Z",
+        "object_repr": "Parcial",
+        "object_id": "2",
+        "change_message": "",
+        "user": 1,
+        "content_type": 11
+    },
+    "model": "admin.logentry",
+    "pk": 154
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T16:00:23.921Z",
+        "object_repr": "Consulta",
+        "object_id": "3",
+        "change_message": "",
+        "user": 1,
+        "content_type": 11
+    },
+    "model": "admin.logentry",
+    "pk": 155
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T16:00:44.032Z",
+        "object_repr": "Inicio de actividades",
+        "object_id": "4",
+        "change_message": "",
+        "user": 1,
+        "content_type": 11
+    },
+    "model": "admin.logentry",
+    "pk": 156
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T16:01:07.532Z",
+        "object_repr": "Inicio de Clases",
+        "object_id": "4",
+        "change_message": "Modifica name.",
+        "user": 1,
+        "content_type": 11
+    },
+    "model": "admin.logentry",
+    "pk": 157
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-25T16:01:26.216Z",
+        "object_repr": "Entrega de resultados",
+        "object_id": "5",
+        "change_message": "",
+        "user": 1,
+        "content_type": 11
+    },
+    "model": "admin.logentry",
+    "pk": 158
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T16:01:37.236Z",
+        "object_repr": "Entrega de Resultados",
+        "object_id": "5",
+        "change_message": "Modifica name.",
+        "user": 1,
+        "content_type": 11
+    },
+    "model": "admin.logentry",
+    "pk": 159
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "action_time": "2015-09-25T16:12:22.978Z",
+        "object_repr": "Informatica",
+        "object_id": "2",
+        "change_message": "",
+        "user": 1,
+        "content_type": 12
+    },
+    "model": "admin.logentry",
+    "pk": 160
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T19:54:28.778Z",
+        "object_repr": "Examen Final",
+        "object_id": "1",
+        "change_message": "Modifica name.",
+        "user": 1,
+        "content_type": 11
+    },
+    "model": "admin.logentry",
+    "pk": 161
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-09-25T19:54:59.692Z",
+        "object_repr": "Examen Parcial",
+        "object_id": "2",
+        "change_message": "Modifica name.",
+        "user": 1,
+        "content_type": 11
+    },
+    "model": "admin.logentry",
+    "pk": 162
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-09-28T21:45:14.584Z",
+        "object_repr": "Carlos Ruiz",
+        "object_id": "1",
+        "change_message": "",
+        "user": 4,
+        "content_type": 15
+    },
+    "model": "admin.logentry",
+    "pk": 163
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "action_time": "2015-09-29T14:18:29.118Z",
+        "object_repr": "kl\u00f1dsalkd 321321",
+        "object_id": "2",
+        "change_message": "",
+        "user": 1,
+        "content_type": 13
+    },
+    "model": "admin.logentry",
+    "pk": 164
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "action_time": "2015-09-29T14:18:29.147Z",
+        "object_repr": "asasa 1111",
+        "object_id": "1",
+        "change_message": "",
+        "user": 1,
+        "content_type": 13
+    },
+    "model": "admin.logentry",
+    "pk": 165
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "action_time": "2015-09-29T14:18:50.122Z",
+        "object_repr": "Informatica",
+        "object_id": "3",
+        "change_message": "",
+        "user": 1,
+        "content_type": 12
+    },
+    "model": "admin.logentry",
+    "pk": 166
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "action_time": "2015-09-29T14:19:01.118Z",
+        "object_repr": "Carlos Ruiz",
+        "object_id": "1",
+        "change_message": "",
+        "user": 1,
+        "content_type": 15
+    },
+    "model": "admin.logentry",
+    "pk": 167
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "action_time": "2015-09-29T14:19:12.545Z",
+        "object_repr": "dwqsadas",
+        "object_id": "30",
+        "change_message": "",
+        "user": 1,
+        "content_type": 9
+    },
+    "model": "admin.logentry",
+    "pk": 168
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "action_time": "2015-09-29T14:19:31.204Z",
+        "object_repr": "Gonzalo Lopez Camino - Inform\u00e1tica",
+        "object_id": "5",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 169
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "action_time": "2015-09-29T14:19:31.227Z",
+        "object_repr": "Jose Navratil - Inform\u00e1tica",
+        "object_id": "4",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 170
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "action_time": "2015-09-29T14:19:31.238Z",
+        "object_repr": "Carlos Ruiz - Inform\u00e1tica",
+        "object_id": "1",
+        "change_message": "",
+        "user": 1,
+        "content_type": 8
+    },
+    "model": "admin.logentry",
+    "pk": 171
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "action_time": "2015-10-05T14:59:39.843Z",
+        "object_repr": "Carlos Ruiz",
+        "object_id": "2",
+        "change_message": "",
+        "user": 1,
+        "content_type": 15
+    },
+    "model": "admin.logentry",
+    "pk": 172
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-10-05T15:21:46.798Z",
+        "object_repr": "Carlos Ruiz",
+        "object_id": "2",
+        "change_message": "Modifica curriculum y image.",
+        "user": 1,
+        "content_type": 15
+    },
+    "model": "admin.logentry",
+    "pk": 173
+},
+{
+    "fields": {
+        "action_flag": 2,
+        "action_time": "2015-10-05T15:36:18.673Z",
+        "object_repr": "Carlos Ruiz",
+        "object_id": "2",
+        "change_message": "Modifica curriculum y image.",
+        "user": 1,
+        "content_type": 15
+    },
+    "model": "admin.logentry",
+    "pk": 174
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "action_time": "2015-10-05T18:31:59.357Z",
+        "object_repr": "pepe",
+        "object_id": "3",
+        "change_message": "",
+        "user": 1,
+        "content_type": 15
+    },
+    "model": "admin.logentry",
+    "pk": 175
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "action_time": "2015-10-05T18:31:59.376Z",
+        "object_repr": "Carlos Ruiz",
+        "object_id": "2",
+        "change_message": "",
+        "user": 1,
+        "content_type": 15
+    },
+    "model": "admin.logentry",
+    "pk": 176
+}
+]

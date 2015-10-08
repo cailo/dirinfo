@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% load bootstrap3 %}
+
+{% block content %}
+
+
+<div class="container">
+    <h1 class="page-header">Editar Curriculum </h1><br>
+
+    <form action="" method="post" class="form" enctype="multipart/form-data">
+         {% csrf_token %}
+         {% bootstrap_form form %}
+         <button type="submit" class="btn btn-primary">Editar Datos</button>
+    </form>
+</div>
+{% endblock %}
