@@ -25,7 +25,7 @@ class DataList(ListView):
 
 class DataCreate(CreateView):
     model = Data
-    fields = ['name', 'title', 'area', 'teaching', 'curriculum', 'image']
+    fields = ['name', 'title', 'image', 'load', 'area', 'matter', 'category', 'curriculum']
     template_name = 'curriculums/data_form.html'
     success_url = reverse_lazy('curriculums:list')
     
@@ -88,7 +88,7 @@ class DataUpdate(UpdateView):
     def dispatch(self, *args, **kwargs):
         return super(DataUpdate, self).dispatch(*args, **kwargs)
 
-    fields = ['name', 'title', 'area', 'teaching', 'curriculum', 'image']
+    fields = ['name', 'title', 'image', 'load', 'area', 'matter', 'category', 'curriculum']
     template_name_suffix = '_update_form'
     
     #def get_absolute_url(self):

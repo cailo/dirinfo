@@ -18,4 +18,5 @@
 *.json
 .venv/
 .logs/
+*.gitignore
 fusionsh/settings.py

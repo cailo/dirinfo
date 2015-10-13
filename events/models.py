@@ -4,6 +4,7 @@ from django.db import models
 
 class Event(models.Model):
     name = models.CharField(max_length=128)
+    logo = models.ImageField('logo', upload_to='images')
     date_init = models.DateField('fecha de inicio')
     date_end = models.DateField('fecha de finalización')
     init = models.TimeField('hora de inicio', blank=True, null=True)
@@ -28,12 +29,14 @@ class Activity(models.Model):
     event = models.ForeignKey(Event)
     title = models.CharField(max_length=100)
     subtitle = models.CharField(max_length=100)
+    image = models.ImageField('imagen', upload_to='images')
     date_init = models.DateField('fecha de inicio')
     date_end = models.DateField('fecha de finalización')
     init = models.TimeField('hora de inicio', blank=True, null=True)
     end = models.TimeField('hora de finalización', blank=True, null=True)
     description = models.CharField(max_length=256)
     address = models.CharField(max_length=256)
+    linkinfo = models.CharField(max_length=512)
     maps_lat = models.IntegerField()
     maps_lng = models.IntegerField()
 

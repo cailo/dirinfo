@@ -20,7 +20,7 @@ class EventListView(ListView):
 
 class EventCreateView(CreateView):
     model = Event
-    fields = ['name', 'date_init', 'date_end', 'init', 'end', 'description']
+    fields = ['name', 'logo', 'date_init', 'date_end', 'init', 'end', 'description']
     success_url = reverse_lazy('events:list')
 
     @method_decorator(login_required)
@@ -34,7 +34,7 @@ class EventCreateView(CreateView):
 
 class EventUpdateView(UpdateView):
     model = Event
-    fields = ['name', 'date_init', 'date_end', 'init', 'end', 'description']
+    fields = ['name', 'logo', 'date_init', 'date_end', 'init', 'end', 'description']
     success_url = reverse_lazy('events:list')
     template_name_suffix = '_update_form'
 
